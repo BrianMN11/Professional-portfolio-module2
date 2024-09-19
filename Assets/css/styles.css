@@ -1,0 +1,81 @@
+/* General Styles */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.hero-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+main {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+section {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.About-me img {
+    max-width: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.About-me h2, .My-portfolio h2, .Contact h2 {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.About-me p, .My-portfolio p, .Contact p {
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .hero-image img {
+        height: 400px;
+        object-fit: cover;
+    }
+}
