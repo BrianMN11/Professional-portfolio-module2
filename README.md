@@ -1,8 +1,7 @@
 # 02 Advanced CSS: Portfolio
 ---
-Here is my website that contains my portfolio based on the user story and acceptance criteria outlined below 
-hopefully this 
-
+As i continue to learn how to be a developer i created my website about me and my work to showcase my developer skills.
+to complete this task i have used the below user story and acceptance criteria as a guide to create my website 
 
 ## User Story
 
@@ -36,7 +35,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ## Mock-Up
 
-The following animation shows the web application's appearance and functionality:
+The following picture shows my web application's appearance:
 
-![portfolio demo](./Assets/02-advanced-css-homework-demo.gif)
+![image of my portfolio webpage](./images/my-portfolio-webage.jpeg)
 
