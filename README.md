@@ -35,7 +35,8 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ## Mock-Up
 
-The following picture shows my web application's appearance:
+The following pictures show my web application's appearance:
 
-![image of my portfolio webpage](./images/my-portfolio-webage.jpeg)
+![image of my portfolio webpage on desktop](./images/my-portfolio-webage-on-desktop.jpeg)
 
+![image of my responsive webpage on mobile](./images/responsive-webpage-on-mobile.jpeg)

@@ -9,10 +9,11 @@ body {
 }
 
 header {
-    background-color: #4CAF50;
+    background-color: #4f33ff;
     color: white;
     padding: 1rem 0;
     text-align: center;
+    font-size: 1.5rem
 }
 
 header .name-title {
@@ -24,20 +25,21 @@ header .name-title {
 header .name-title img {
     border-radius: 50%;
     margin-right: 1rem;
-    width: 50px;
-    height: 50px;
+    width: 80px;
+    height: 80px;
+    margin-right: 15px;
 }
 
 nav ul {
     list-style: none;
     padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
+    margin: auto;
+   
 }
 
 nav ul li {
     margin: 0 1rem;
+    display:inline;
 }
 
 nav ul li a {
@@ -73,6 +75,8 @@ section {
 #About-me h2, #My-portfolio h2, #Contact h2 {
     text-align: center;
     margin-top: 1rem;
+    color: #4f33ff;
+    font-size: 1.8rem;
     
 }
 
@@ -83,13 +87,13 @@ section {
 
 .work-item {
     text-align: center;
+    margin: auto;
 }
 
 .work-item img {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
-    transition: transform 0.3s ease;
 }
 
 .featured {
@@ -98,11 +102,22 @@ section {
 
 .work-item h3 {
     margin-top: 0.5rem;
+    font-size: 1.2rem;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 600px) {
     .hero-image img {
         height: 400px;
         object-fit: cover;
     }
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    header .name-title {
+        flex-direction: column;
+        align-items: center;
+    }
+
 }
