@@ -38,8 +38,11 @@ THEN I am presented with a responsive layout that adapts to my viewport
 The following pictures show my web application's appearance:
 
 Below is the website when viewed on desktop or anywhere with a wider viewport
+
 ![image of my portfolio webpage on desktop](./images/my-portfolio-webage-on-desktop.jpeg)
 
 Below is the website when viewed on a mobile device.
-Which also gives a glimpse to the responsiveness of the web design 
+
+Which also gives a glimpse to the responsiveness of the web design
+
 ![image of my responsive webpage on mobile](./images/responsive-webpage-on-mobile.jpeg)
